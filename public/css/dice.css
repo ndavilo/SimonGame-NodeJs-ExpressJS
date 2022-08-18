@@ -1,0 +1,51 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: #FFB4B4;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  .refresh-button{
+    border-radius: 10px;
+    border-top: 0;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin: 10%;
+    width: 50%;
+    height: 40px;
+  }
+  .refresh-button:hover{
+    background-color: #FFB4B4;
+  }
+  .name_input,
+  .name_button{
+      font-size: 14px;
+      border-radius: 10px;
+  }

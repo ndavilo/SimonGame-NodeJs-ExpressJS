@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="css/dice.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+        <h1>Refresh Me</h1>
+        <form action="/dice" method="post">
+            <input type="text" name="player2" class ="name_input" placeholder="enter your name">
+            <button type="submit" class ="name_button">Rename</button>
+        </form>
+
+        <div class="dice">
+            <p>Baby</p>
+            <img class="img1" src="image/dice6.png">
+        </div>
+
+        <div class="dice">
+            <p class="player2">Player 2</p>
+            <img class="img2" src="image/dice6.png">
+        </div>
+        <br>
+        <button class="refresh-button">Refresh</button>
+
+    </div>
+  
+  <!-- 
+  for jQuery include the CDN before the script tag 
+  downloaded from: https://developers.google.com/speed/libraries
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/dice.js"></script>
+  </body>
+
+</html>
